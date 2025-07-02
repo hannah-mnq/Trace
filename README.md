@@ -28,16 +28,17 @@
 
 ## 📌 Use Cases
 
-| Scenario                         | How Trace Helps                                |
-|----------------------------------|--------------------------------------------------|
-| **CI/CD Pipeline Outages**       | Pinpoints the failing stage and predicts impact on delivery |
-| **Microservices Failures**       | Finds the service causing a cascade and recommends recovery steps |
-| **Infra Downtime**               | Explains dependency bottlenecks and affected nodes |
-| **Chaos Testing**                | Simulates failures to test resilience and auto-generate failure reports |
+| Scenario                   | How Trace Helps                                                         |
+| -------------------------- | ----------------------------------------------------------------------- |
+| **CI/CD Pipeline Outages** | Pinpoints the failing stage and predicts impact on delivery             |
+| **Microservices Failures** | Finds the service causing a cascade and recommends recovery steps       |
+| **Infra Downtime**         | Explains dependency bottlenecks and affected nodes                      |
+| **Chaos Testing**          | Simulates failures to test resilience and auto-generate failure reports |
 
 ---
 
 ## Architecture Overview
+
 User Input → Graph Parser → Root Cause Engine → Impact Analyzer → Explanation Generator → Visualizer
 
 Graph Parser: Builds DAG from user input
