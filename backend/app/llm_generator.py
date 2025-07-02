@@ -15,7 +15,7 @@ Root causes:
 Cascading failures:
 {', '.join(cascades) if cascades else 'None'}
 
-Write a professioanal, clear explanation of what happened and why, in under 100 words.
+Write a professional, clear explanation of what happened and why, in under 100 words.
 """
     headers = {
         "Authorization" : f"Bearer {TOGETHER_API_KEY}",
