@@ -57,4 +57,3 @@ Visualizer: Renders graph with D3.js and heatmap overlays
 | **Frontend**      | React.js, D3.js (for graph), Tailwind CSS                                      |
 | **AI/Logic**      | Rule-based logic + templates OR free-tier LLM APIs (like Cohere, Hugging Face) |
 | **Visualization** | D3.js, Chart.js                                                                |
-| **Packaging**     | Docker (optional)                                                              |
